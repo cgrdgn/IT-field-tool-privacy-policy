@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — IT Field Tool</title>
+<style>
+  :root{
+    --bg:#0B0E14; --surface:#141922; --line:#232A36;
+    --text:#E6EAF2; --muted:#95A0B4; --accent:#38BDF8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+  header{padding:56px 0 28px;border-bottom:1px solid var(--line);margin-bottom:36px}
+  h1{font-size:28px;margin:0 0 8px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:14px;margin:0}
+  h2{font-size:20px;margin:40px 0 12px;letter-spacing:-.01em}
+  h3{font-size:16px;margin:26px 0 8px;color:var(--accent)}
+  p,li{color:var(--text)}
+  ul{padding-left:22px}
+  li{margin-bottom:7px}
+  code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:14px;color:var(--accent)}
+  a{color:var(--accent)}
+  .box{
+    background:var(--surface);border:1px solid var(--line);border-radius:10px;
+    padding:16px 20px;margin:22px 0;
+  }
+  .box p{margin:0;color:var(--muted);font-size:15px}
+  .lang{
+    display:inline-block;margin-bottom:28px;padding:7px 14px;
+    border:1px solid var(--line);border-radius:8px;color:var(--muted);
+    text-decoration:none;font-size:14px;
+  }
+  .lang:hover{border-color:var(--accent);color:var(--accent)}
+  hr{border:0;border-top:1px solid var(--line);margin:64px 0 44px}
+  footer{color:var(--muted);font-size:14px;margin-top:52px;padding-top:22px;border-top:1px solid var(--line)}
+  table{width:100%;border-collapse:collapse;margin:18px 0;font-size:15px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.05em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="sub">IT Field Tool: IP &amp; Subnet &nbsp;·&nbsp; Last updated: [TARİH — ör. 17 August 2026]</p>
+</header>
+
+<a class="lang" href="#turkce">Türkçe için tıklayın ↓</a>
+
+<div class="box">
+  <p><strong>Summary:</strong> IT Field Tool does not have user accounts and does not operate any server. Every scan, calculation and lookup result stays on your device. We do not collect, store or transmit your network data. The only data leaving your device are DNS queries you initiate and standard advertising requests handled by Google AdMob.</p>
+</div>
+
+<h2>1. Who we are</h2>
+<p>IT Field Tool: IP &amp; Subnet ("the app") is developed and published by [GELİŞTİRİCİ ADI — Play Console'daki geliştirici adınla aynı olmalı] ("we", "us"). You can reach us at <a href="mailto:[E-POSTA ADRESİN]">[E-POSTA ADRESİN]</a>.</p>
+
+<h2>2. Data we collect ourselves</h2>
+<p><strong>None.</strong> We operate no backend, no database and no analytics service. We have no way to identify you, and we never receive your scan results, IP addresses, hostnames or any other network information.</p>
+
+<h2>3. Data stored on your device</h2>
+<p>The app stores the following locally, using Android's standard preferences storage. This data never leaves your device and is permanently deleted when you uninstall the app.</p>
+<ul>
+  <li>Your recent scan history (last 5 entries in the free version, unlimited with Pro)</li>
+  <li>App settings such as language and theme</li>
+  <li>Counters used to decide when to show the optional Pro offer</li>
+  <li>Your Pro purchase status</li>
+</ul>
+
+<h2>4. Data processed by the tools</h2>
+<table>
+  <tr><th>Tool</th><th>What happens</th></tr>
+  <tr><td>Subnet Calculator</td><td>Pure local arithmetic. No network connection is made.</td></tr>
+  <tr><td>DNS Lookup</td><td>Your query is sent over an encrypted HTTPS connection to a public DNS resolver (Cloudflare DNS or Google Public DNS) to retrieve the record. The domain or IP you enter is visible to that resolver.</td></tr>
+  <tr><td>Port Scanner</td><td>TCP connection attempts to the host you specify. Results stay on your device.</td></tr>
+  <tr><td>Ping</td><td>ICMP or TCP probes to the host you specify. Results stay on your device.</td></tr>
+  <tr><td>LAN Discovery</td><td>Scans your own local network for reachable devices. Results stay on your device. The manufacturer lookup uses an offline database bundled inside the app; no request is made for this.</td></tr>
+</table>
+<p>Apart from DNS Lookup, none of the tools transmit anything to us or to any third party.</p>
+
+<h2>5. Permissions and why they are needed</h2>
+<ul>
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — required for every diagnostic function and for serving ads.</li>
+  <li><code>ACCESS_WIFI_STATE</code> — reads your current Wi-Fi connection details so the app can determine your local subnet.</li>
+  <li><code>ACCESS_FINE_LOCATION</code> — <strong>not used for location tracking.</strong> Since Android 10, the operating system requires this permission before an app can read the Wi-Fi network name (SSID) and related details. Your geographic position is never requested, recorded or transmitted by us.</li>
+  <li><code>NEARBY_WIFI_DEVICES</code> — the Android 13+ replacement for the above, used for the same purpose.</li>
+  <li><code>AD_ID</code> — allows Google AdMob to access the advertising identifier.</li>
+</ul>
+
+<h2>6. Advertising</h2>
+<p>The free version of the app displays advertisements through <strong>Google AdMob</strong>. AdMob is operated by Google LLC and acts as an independent data controller for the data it collects. It may collect and process:</p>
+<ul>
+  <li>Your device's advertising identifier (AAID)</li>
+  <li>Device model, operating system version and language</li>
+  <li>Approximate location derived from your IP address</li>
+  <li>Ad interaction data such as impressions and clicks</li>
+</ul>
+<p>Google's handling of this data is described in the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and the <a href="https://business.safety.google/adsprocessorterms/" target="_blank" rel="noopener">Google Ads Data Processing Terms</a>.</p>
+
+<h3>Your consent choices</h3>
+<p>If you are located in the European Economic Area, the United Kingdom or Switzerland, the app presents a consent form on first launch using Google's User Messaging Platform, in line with GDPR and the IAB Transparency &amp; Consent Framework. You can change your choice at any time from the app's Settings screen.</p>
+<p>You can also reset or delete your advertising identifier at any time in your device settings under <em>Settings → Google → Ads</em>.</p>
+
+<h3>Removing ads</h3>
+<p>Purchasing the one-time Pro unlock removes all advertising from the app. Once Pro is active, no ad is requested or displayed.</p>
+
+<h2>7. Purchases</h2>
+<p>The optional Pro unlock is processed entirely by <strong>Google Play Billing</strong>. We never see, receive or store your payment card details, billing address or any other payment information. Google provides us only with anonymous, aggregated sales reports. Google's handling of purchase data is covered by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+<h2>8. Children</h2>
+<p>This app is a professional network diagnostic tool. It is not directed to children and we do not knowingly collect any information from children under 13 (or the equivalent minimum age in your jurisdiction).</p>
+
+<h2>9. Data retention and your rights</h2>
+<p>Because we hold no data about you, there is nothing for us to retain, export or erase on your behalf. All app data resides on your device and is removed completely when you uninstall the app. You may also clear it at any time through your device's application settings.</p>
+<p>For data held by Google as a result of advertising or purchases, please exercise your rights directly with Google using the links above.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If this policy changes, the updated version will be published at this address with a new "last updated" date. Material changes will also be noted in the app's release notes.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about this policy: <a href="mailto:[E-POSTA ADRESİN]">[E-POSTA ADRESİN]</a></p>
+
+<hr>
+
+<h1 id="turkce">Gizlilik Politikası</h1>
+<p class="sub">IT Field Tool: IP &amp; Subnet &nbsp;·&nbsp; Son güncelleme: [TARİH]</p>
+
+<div class="box">
+  <p><strong>Özet:</strong> IT Field Tool'da kullanıcı hesabı yoktur ve herhangi bir sunucu çalıştırmıyoruz. Yaptığınız her tarama, hesaplama ve sorgu sonucu cihazınızda kalır. Ağ verilerinizi toplamıyor, saklamıyor ve iletmiyoruz. Cihazınızdan dışarı çıkan tek veri, sizin başlattığınız DNS sorguları ile Google AdMob'un yürüttüğü standart reklam istekleridir.</p>
+</div>
+
+<h2>1. Kimiz</h2>
+<p>IT Field Tool: IP &amp; Subnet ("uygulama"), [GELİŞTİRİCİ ADI] tarafından geliştirilip yayınlanmaktadır. Bize <a href="mailto:[E-POSTA ADRESİN]">[E-POSTA ADRESİN]</a> adresinden ulaşabilirsiniz.</p>
+
+<h2>2. Bizim topladığımız veriler</h2>
+<p><strong>Hiçbiri.</strong> Sunucumuz, veritabanımız veya analiz hizmetimiz yok. Sizi tanımlayabilmemizin bir yolu bulunmuyor; tarama sonuçlarınız, IP adresleriniz, ana makine adlarınız veya başka hiçbir ağ bilginiz bize ulaşmıyor.</p>
+
+<h2>3. Cihazınızda saklanan veriler</h2>
+<p>Uygulama aşağıdakileri Android'in standart tercih deposunda yerel olarak saklar. Bu veriler cihazınızdan çıkmaz ve uygulamayı kaldırdığınızda kalıcı olarak silinir.</p>
+<ul>
+  <li>Son tarama geçmişiniz (ücretsiz sürümde son 5 kayıt, Pro ile sınırsız)</li>
+  <li>Dil ve tema gibi uygulama ayarları</li>
+  <li>İsteğe bağlı Pro teklifinin ne zaman gösterileceğini belirleyen sayaçlar</li>
+  <li>Pro satın alma durumunuz</li>
+</ul>
+
+<h2>4. Araçların işlediği veriler</h2>
+<table>
+  <tr><th>Araç</th><th>Ne oluyor</th></tr>
+  <tr><td>Subnet Hesaplayıcı</td><td>Tamamen yerel matematik işlemi. Hiçbir ağ bağlantısı kurulmaz.</td></tr>
+  <tr><td>DNS Sorgusu</td><td>Sorgunuz, kaydı almak üzere şifreli HTTPS bağlantısıyla genel bir DNS çözümleyicisine (Cloudflare DNS veya Google Public DNS) gönderilir. Girdiğiniz alan adı veya IP, o çözümleyici tarafından görülür.</td></tr>
+  <tr><td>Port Tarayıcı</td><td>Belirttiğiniz ana makineye TCP bağlantı denemeleri. Sonuçlar cihazınızda kalır.</td></tr>
+  <tr><td>Ping</td><td>Belirttiğiniz ana makineye ICMP veya TCP paketleri. Sonuçlar cihazınızda kalır.</td></tr>
+  <tr><td>Yerel Ağ Keşfi</td><td>Kendi yerel ağınızdaki erişilebilir cihazları tarar. Sonuçlar cihazınızda kalır. Üretici sorgusu, uygulamanın içine gömülü çevrimdışı veritabanını kullanır; bunun için hiçbir istek yapılmaz.</td></tr>
+</table>
+<p>DNS Sorgusu dışında hiçbir araç bize veya herhangi bir üçüncü tarafa veri iletmez.</p>
+
+<h2>5. İzinler ve gerekçeleri</h2>
+<ul>
+  <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — tüm teşhis işlevleri ve reklam gösterimi için gereklidir.</li>
+  <li><code>ACCESS_WIFI_STATE</code> — yerel alt ağınızı belirleyebilmek için mevcut Wi-Fi bağlantı bilgilerinizi okur.</li>
+  <li><code>ACCESS_FINE_LOCATION</code> — <strong>konum takibi için kullanılmaz.</strong> Android 10'dan itibaren işletim sistemi, bir uygulamanın Wi-Fi ağ adını (SSID) ve ilgili bilgileri okuyabilmesi için bu izni zorunlu kılmaktadır. Coğrafi konumunuz tarafımızca hiçbir zaman istenmez, kaydedilmez veya iletilmez.</li>
+  <li><code>NEARBY_WIFI_DEVICES</code> — Android 13 ve üzeri için yukarıdakinin yerini alan izin, aynı amaçla kullanılır.</li>
+  <li><code>AD_ID</code> — Google AdMob'un reklam kimliğine erişmesini sağlar.</li>
+</ul>
+
+<h2>6. Reklamcılık</h2>
+<p>Uygulamanın ücretsiz sürümü <strong>Google AdMob</strong> aracılığıyla reklam gösterir. AdMob, Google LLC tarafından işletilir ve topladığı veriler bakımından bağımsız veri sorumlusu sıfatıyla hareket eder. Şunları toplayıp işleyebilir:</p>
+<ul>
+  <li>Cihazınızın reklam kimliği (AAID)</li>
+  <li>Cihaz modeli, işletim sistemi sürümü ve dil</li>
+  <li>IP adresinizden türetilen yaklaşık konum</li>
+  <li>Gösterim ve tıklama gibi reklam etkileşim verileri</li>
+</ul>
+<p>Google'ın bu verileri nasıl işlediği <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a> ve <a href="https://business.safety.google/adsprocessorterms/" target="_blank" rel="noopener">Google Reklam Veri İşleme Şartları</a> belgelerinde açıklanmıştır.</p>
+
+<h3>Onay tercihleriniz</h3>
+<p>Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre'de bulunuyorsanız uygulama, ilk açılışta Google'ın User Messaging Platform altyapısıyla bir onay formu gösterir; bu, GDPR ve IAB Şeffaflık ve Onay Çerçevesi ile uyumludur. Tercihinizi istediğiniz zaman uygulamanın Ayarlar ekranından değiştirebilirsiniz.</p>
+<p>Reklam kimliğinizi cihaz ayarlarınızdan da istediğiniz zaman sıfırlayabilir veya silebilirsiniz: <em>Ayarlar → Google → Reklamlar</em>.</p>
+
+<h3>Reklamları kaldırma</h3>
+<p>Tek seferlik Pro kilidini satın almak, uygulamadaki tüm reklamları kaldırır. Pro etkinken hiçbir reklam istenmez ve gösterilmez.</p>
+
+<h2>7. Satın almalar</h2>
+<p>İsteğe bağlı Pro kilidi tamamen <strong>Google Play Faturalandırma</strong> tarafından işlenir. Ödeme kartı bilgilerinizi, fatura adresinizi veya başka hiçbir ödeme bilginizi görmüyor, almıyor ve saklamıyoruz. Google bize yalnızca anonim ve toplulaştırılmış satış raporları sağlar.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Bu uygulama profesyonel bir ağ teşhis aracıdır. Çocuklara yönelik değildir ve 13 yaşın (veya bulunduğunuz ülkedeki eşdeğer asgari yaşın) altındaki çocuklardan bilerek hiçbir bilgi toplamayız.</p>
+
+<h2>9. Veri saklama ve haklarınız</h2>
+<p>Hakkınızda hiçbir veri tutmadığımız için saklayacağımız, dışa aktaracağımız veya sizin adınıza sileceğimiz bir şey yoktur. Tüm uygulama verisi cihazınızda bulunur ve uygulamayı kaldırdığınızda tamamen silinir. Dilediğiniz zaman cihazınızın uygulama ayarlarından da temizleyebilirsiniz.</p>
+<p>Reklam veya satın alma nedeniyle Google'ın elinde bulunan veriler için haklarınızı doğrudan Google nezdinde kullanabilirsiniz.</p>
+
+<h2>10. Bu politikadaki değişiklikler</h2>
+<p>Politika değişirse güncel sürüm bu adreste yeni bir "son güncelleme" tarihiyle yayımlanır. Önemli değişiklikler ayrıca uygulamanın sürüm notlarında belirtilir.</p>
+
+<h2>11. İletişim</h2>
+<p>Bu politikayla ilgili sorularınız için: <a href="mailto:[E-POSTA ADRESİN]">[E-POSTA ADRESİN]</a></p>
+
+<footer>
+  IT Field Tool: IP &amp; Subnet · © [YIL] [GELİŞTİRİCİ ADI]
+</footer>
+
+</div>
+</body>
+</html>
